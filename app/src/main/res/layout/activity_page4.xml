@@ -5,6 +5,225 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".Page4Activity">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="405dp"
+        android:layout_height="127dp"
+        android:background="#EE3026"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="404dp"
+        android:layout_height="39dp"
+        android:background="#EE3026"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="128dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105"
+        app:srcCompat="@drawable/sol_vermelho" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="123dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="432dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/sol_vermelho" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADAPTACOES:"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="112dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        app:srcCompat="@drawable/fahrenheit_451_1966_" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAHRENHEIT 451 (1966) / FILME"
+        android:textColor="#FDFDFD"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.692" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="229dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque id elit ut feugiat. Nulla vulputate purus et magna porta condimentum. Cras accumsan quis elit eget condimentum. Nulla rhoncus nec nibh sit amet porttitor. Sed tristique nibh ac "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="110dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/fahrenheit_451__2018_" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
+        android:text="FAHRENHEIT 451 (2018) / FILME"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="226dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque id elit ut feugiat. Nulla vulputate purus et magna porta condimentum. Cras accumsan quis elit eget condimentum. Nulla rhoncus nec nibh sit amet porttitor. Sed tristique nibh ac "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="108dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fahrenheit_451_1984_" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="253dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="24dp"
+        android:text="FAHRENHEIT 451 (1984) / VIDEOGAME"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="222dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="12dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque id elit ut feugiat. Nulla vulputate purus et magna porta condimentum. Cras accumsan quis elit eget condimentum. Nulla rhoncus nec nibh sit amet porttitor. Sed tristique nibh ac "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        app:srcCompat="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="37dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="24dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="INFORMACOES"
+        android:textColor="#FFFF00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

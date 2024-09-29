@@ -29,10 +29,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+            // leva pra +info
         imageView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Page2Activity.class);
+                Intent intent = new Intent(MainActivity.this, Page4Activity.class);
                 startActivity(intent);
             }
         });
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         imageView7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Page4Activity.class);
+                Intent intent = new Intent(MainActivity.this, Page2Activity.class);
                 startActivity(intent);
             }
         });
