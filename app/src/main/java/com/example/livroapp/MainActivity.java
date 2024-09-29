@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView8 = findViewById(R.id.imageView8);
 
         // Definindo os onClickListeners para redirecionar para diferentes páginas
+
+        //leva pra personagens
         imageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+            //leva pra linha do tempo
         imageView6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+//leva pro autor
         imageView7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
