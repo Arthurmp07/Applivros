@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         imageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Page1Activity.class);
+                Intent intent = new Intent(MainActivity.this, Page3Activity.class);
                 startActivity(intent);
             }
         });
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         imageView6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Page3Activity.class);
+                Intent intent = new Intent(MainActivity.this, Page1Activity.class);
                 startActivity(intent);
             }
         });
