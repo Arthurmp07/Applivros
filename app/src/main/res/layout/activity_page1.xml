@@ -8,47 +8,206 @@
     android:background="#000000"
     tools:context=".Page1Activity">
 
-    <View
-        android:id="@+id/view3"
-        android:layout_width="405dp"
-        android:layout_height="127dp"
-        android:background="#EE3026"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp">
 
-    <View
-        android:id="@+id/view4"
-        android:layout_width="410dp"
-        android:layout_height="105dp"
-        android:background="#EE3026"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        <TableRow
+            android:layout_width="191dp"
+            android:layout_height="250dp">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="128dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toTopOf="@+id/view4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147"
-        app:srcCompat="@drawable/sol_vermelho" />
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="51dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/sol_vermelho" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="128dp"
-        android:layout_height="123dp"
-        android:layout_marginTop="432dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view3"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/sol_vermelho" />
+            <View
+                android:id="@+id/view3"
+                android:layout_width="411dp"
+                android:layout_height="131dp"
+                android:background="#EE3026" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="224dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="GUY MONTAG"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="116dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/guy_icone" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Inteligente, sensível e conflituoso. Embora Montag comece como um bombeiro satisfeito, mas geralmente complacente, ele se torna cada vez mais insatisfeito com sua sociedade à medida que descobre o preço de um mundo sem livros."
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MILDRED MONTAG"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/mildred_icone" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mildred é egoísta e se preocupa apenas com seus próprios interesses, que se limitam à sua família. Ela tem medo do governo e do que eles podem fazer com ela se quebrar alguma regra. Mildred é influenciável e acredita que sua “família” (novelas interativas) está realmente conversando com ela. "
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CLARISSE"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/clarisse_cone" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Clarisse é uma personagem inquisitiva, instigante, inteligente e otimista. Sua impressão duradoura em Montag afetou imensamente o desenvolvimento do personagem e o romance como um todo. Ela foi o fósforo que acendeu a vela da autoconsciência na mente de Guy Montag e uma das razões para sua sobrevivência. "
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CAPTIÃO BEATTY"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="38dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/cap_icone" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O Capitão Beatty parece ser um líder forte, cuidadoso e conhecedor em Fahrenheit 451. Ele mantém um controle rígido sob seus rapazes na brigada de incêndio e sob a comunidade, que acredita estar protegendo e mantendo feliz por meio da censura. "
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="PROF. FABER"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/prof_icone" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O Professor Faber é um personagem complexo em Fahrenheit 451. Ele é ao mesmo tempo covarde e herói. Às vezes, parece uma voz lógica da razão, e em outras, um manipulador."
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
