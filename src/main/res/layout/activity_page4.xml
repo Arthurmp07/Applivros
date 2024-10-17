@@ -52,139 +52,117 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/sol_vermelho" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ADAPTACOES:"
-        android:textColor="#FFFFFF"
-        android:textColorLink="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view3"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="112dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="72dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView5"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view3"
-        app:srcCompat="@drawable/fahrenheit_451_1966_" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="FAHRENHEIT 451 (1966) / FILME"
-        android:textColor="#FDFDFD"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
-        app:layout_constraintStart_toEndOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.692" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="229dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="48dp"
-        android:text="Dirigido por François Truffaut, este filme foi a primeira adaptação cinematográfica de Fahrenheit 451. Estreando em 1966, foi um marco por ser o primeiro e único filme em inglês dirigido por Truffaut. O filme segue de perto o enredo do livro, com Oskar Werner no papel de Guy Montag e Julie Christie em um papel duplo como Mildred e Clarisse. A visão de Truffaut para o filme foi marcante, utilizando uma estética minimalista e simbólica para capturar a natureza opressiva da sociedade sem livros. Embora tenha recebido críticas mistas na época de seu lançamento, o filme é hoje considerado um clássico do cinema de ficção científica. "
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="110dp"
-        android:layout_height="173dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView7"
-        app:layout_constraintEnd_toEndOf="@+id/imageView10"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:srcCompat="@drawable/fahrenheit_451__2018_" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="44dp"
-        android:text="FAHRENHEIT 451 (2018) / FILME"
-        android:textColor="#FBFAFA"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
-        app:layout_constraintStart_toEndOf="@+id/imageView11"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="226dp"
-        android:layout_height="143dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="28dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque id elit ut feugiat. Nulla vulputate purus et magna porta condimentum. Cras accumsan quis elit eget condimentum. Nulla rhoncus nec nibh sit amet porttitor. Sed tristique nibh ac "
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
-        app:layout_constraintStart_toEndOf="@+id/imageView11"
-        app:layout_constraintTop_toTopOf="@+id/textView6" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="108dp"
-        android:layout_height="170dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
-        app:layout_constraintEnd_toStartOf="@+id/textView8"
-        app:layout_constraintHorizontal_bias="0.7"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/fahrenheit_451_1984_" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="253dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="24dp"
-        android:text="FAHRENHEIT 451 (1984) / VIDEOGAME"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="222dp"
-        android:layout_height="137dp"
-        android:layout_marginTop="12dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque id elit ut feugiat. Nulla vulputate purus et magna porta condimentum. Cras accumsan quis elit eget condimentum. Nulla rhoncus nec nibh sit amet porttitor. Sed tristique nibh ac "
-        android:textColor="#FFFFFF"
+    <ScrollView
+        android:layout_width="414dp"
+        android:layout_height="446dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintStart_toEndOf="@+id/imageView12"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FAHRENHEIT 451 (1966) / FILME"
+                android:textColor="#FDFDFD" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="395dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="105dp"
+                    android:layout_height="246dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="72dp"
+                    app:srcCompat="@drawable/fahrenheit_451_1966_" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="228dp"
+                    android:layout_height="323dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="48dp"
+                    android:text="Dirigido por François Truffaut, este filme foi a primeira adaptação cinematográfica de Fahrenheit 451. Estreando em 1966, foi um marco por ser o primeiro e único filme em inglês dirigido por Truffaut. O filme segue de perto o enredo do livro, com Oskar Werner no papel de Guy Montag e Julie Christie em um papel duplo como Mildred e Clarisse. A visão de Truffaut para o filme foi marcante, utilizando uma estética minimalista e simbólica para capturar a natureza opressiva da sociedade sem livros. Embora tenha recebido críticas mistas na época de seu lançamento, o filme é hoje considerado um clássico do cinema de ficção científica. "
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="44dp"
+                android:text="FAHRENHEIT 451 (2018) / FILME"
+                android:textColor="#FBFAFA" />
+
+            <LinearLayout
+                android:layout_width="427dp"
+                android:layout_height="336dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="107dp"
+                    android:layout_height="214dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    app:srcCompat="@drawable/fahrenheit_451__2018_" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="256dp"
+                    android:layout_height="280dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="28dp"
+                    android:text="Em 2018, Fahrenheit 451 foi adaptado novamente, desta vez como um filme para a HBO, dirigido por Ramin Bahrani. Nesta versão, o enredo é modernizado, trazendo elementos contemporâneos como a internet e as mídias sociais, o que atualiza a mensagem do livro para as novas realidades tecnológicas. Michael B. Jordan interpreta Montag, e Michael Shannon assume o papel do Capitão Beatty. Embora tenha sido elogiado por suas atuações e efeitos visuais, a adaptação de 2018 recebeu críticas mistas quanto à sua fidelidade ao espírito original da obra e à profundidade das questões abordadas no livro. "
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="253dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="24dp"
+                android:text="FAHRENHEIT 451 (1984) / VIDEOGAME"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="359dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="169dp"
+                    android:layout_height="162dp"
+                    android:layout_marginTop="24dp"
+                    app:srcCompat="@drawable/fahrenheit_451_1984_" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="236dp"
+                    android:layout_height="311dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Fahrenheit 451 também foi adaptado para um jogo de computador em 1984, desenvolvido pela Telarium. Este jogo de aventura textual foi lançado para plataformas como o Apple II e o Commodore 64. Diferente das adaptações cinematográficas, o jogo serve como uma espécie de &quot;continuação&quot; do romance, onde os jogadores assumem o papel de Montag após os eventos do livro. O objetivo é encontrar e preservar livros escondidos para garantir a sobrevivência do conhecimento. Embora limitado pelas tecnologias da época, o jogo foi uma tentativa inovadora de expandir o universo de Fahrenheit 451 e engajar os fãs em uma nova mídia interativa. "
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
     <ImageView
         android:id="@+id/imageView13"
