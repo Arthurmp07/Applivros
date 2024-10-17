@@ -12,6 +12,7 @@ public class Page1Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setContentView(R.layout.activity_page1);
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_page1);
