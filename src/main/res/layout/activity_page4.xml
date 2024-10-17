@@ -97,7 +97,7 @@
         android:layout_height="131dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="48dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque id elit ut feugiat. Nulla vulputate purus et magna porta condimentum. Cras accumsan quis elit eget condimentum. Nulla rhoncus nec nibh sit amet porttitor. Sed tristique nibh ac "
+        android:text="Dirigido por François Truffaut, este filme foi a primeira adaptação cinematográfica de Fahrenheit 451. Estreando em 1966, foi um marco por ser o primeiro e único filme em inglês dirigido por Truffaut. O filme segue de perto o enredo do livro, com Oskar Werner no papel de Guy Montag e Julie Christie em um papel duplo como Mildred e Clarisse. A visão de Truffaut para o filme foi marcante, utilizando uma estética minimalista e simbólica para capturar a natureza opressiva da sociedade sem livros. Embora tenha recebido críticas mistas na época de seu lançamento, o filme é hoje considerado um clássico do cinema de ficção científica. "
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
@@ -190,40 +190,37 @@
         android:id="@+id/imageView13"
         android:layout_width="61dp"
         android:layout_height="57dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="28dp"
         app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintStart_toStartOf="@+id/view3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.228"
+        app:layout_constraintVertical_bias="0.471"
         app:srcCompat="@drawable/menu" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="37dp"
         android:layout_height="44dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginBottom="50dp"
         android:text="+"
         android:textAlignment="center"
         android:textColor="#FDFDFD"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
-        app:layout_constraintTop_toTopOf="@+id/view3"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintStart_toEndOf="@+id/imageView13" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
+        android:layout_marginBottom="56dp"
         android:text="INFORMACOES"
         android:textColor="#FFFF00"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="@+id/view3"
-        app:layout_constraintHorizontal_bias="0.015"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.822" />
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toEndOf="@+id/imageView13" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

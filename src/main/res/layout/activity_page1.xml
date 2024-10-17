@@ -40,37 +40,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="128dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toTopOf="@+id/view4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15"
-        app:srcCompat="@drawable/sol_vermelho" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="128dp"
-        android:layout_height="123dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view3"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/sol_vermelho" />
-
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@+id/view3"
         app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/view3">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -82,91 +59,161 @@
                 android:layout_height="wrap_content">
 
                 <TableRow
-                    android:layout_width="136dp"
-                    android:layout_height="199dp">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
                     <Space
                         android:layout_width="20dp"
                         android:layout_height="wrap_content" />
+
                     <ImageView
                         android:layout_width="118dp"
                         android:layout_height="195dp"
                         android:paddingBottom="60dp"
                         app:srcCompat="@drawable/guy_icone" />
+
                     <Space
                         android:layout_width="20dp"
                         android:layout_height="wrap_content" />
+
                     <TextView
                         android:layout_width="250dp"
                         android:layout_height="230dp"
                         android:paddingBottom="30dp"
-                        android:text="@string/pers_1" />
+                        android:text="@string/pers_1"
+                        android:textColor="#E6C9C9" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="136dp"
                     android:layout_height="199dp">
+
                     <Space
                         android:layout_width="20dp"
                         android:layout_height="wrap_content" />
+
                     <ImageView
                         android:layout_width="118dp"
                         android:layout_height="195dp"
                         android:paddingBottom="60dp"
-                        app:srcCompat="@drawable/guy_icone" />
+                        app:srcCompat="@drawable/prof_icone" />
+
                     <Space
                         android:layout_width="20dp"
                         android:layout_height="wrap_content" />
+
                     <TextView
                         android:layout_width="250dp"
                         android:layout_height="230dp"
                         android:paddingBottom="30dp"
-                        android:text="Inteligente, sensível e conflituoso. Embora Montag comece como um bombeiro satisfeito, mas geralmente complacente, ele se torna cada vez mais insatisfeito com sua sociedade à medida que descobre o preço de um mundo sem livros. E conforme seu antigo mundo desmorona, Montag começa a recorrer aos livros, esperando que – em algum lugar entre suas páginas – ele encontre as respostas para suas perguntas ardentes sobre sua sociedade, sua vida e a si mesmo." />
+                        android:text="@string/pers_5"
+                        android:textColor="#E6C9C9" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_width="118dp"
+                        android:layout_height="195dp"
+                        android:paddingBottom="60dp"
+                        app:srcCompat="@drawable/mildred_icone" />
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="230dp"
+                        android:paddingBottom="30dp"
+                        android:text="@string/pers_2"
+                        android:textColor="#E6C9C9" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="136dp"
                     android:layout_height="199dp">
+
                     <Space
                         android:layout_width="20dp"
                         android:layout_height="wrap_content" />
+
                     <ImageView
                         android:layout_width="118dp"
                         android:layout_height="195dp"
                         android:paddingBottom="60dp"
-                        app:srcCompat="@drawable/guy_icone" />
+                        app:srcCompat="@drawable/clarisse_cone" />
+
                     <Space
                         android:layout_width="20dp"
                         android:layout_height="wrap_content" />
+
                     <TextView
                         android:layout_width="250dp"
                         android:layout_height="230dp"
                         android:paddingBottom="30dp"
-                        android:text="Inteligente, sensível e conflituoso. Embora Montag comece como um bombeiro satisfeito, mas geralmente complacente, ele se torna cada vez mais insatisfeito com sua sociedade à medida que descobre o preço de um mundo sem livros. E conforme seu antigo mundo desmorona, Montag começa a recorrer aos livros, esperando que – em algum lugar entre suas páginas – ele encontre as respostas para suas perguntas ardentes sobre sua sociedade, sua vida e a si mesmo." />
+                        android:text="@string/pers_3"
+                        android:textColor="#E6C9C9" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="136dp"
                     android:layout_height="199dp">
+
                     <Space
                         android:layout_width="20dp"
                         android:layout_height="wrap_content" />
+
                     <ImageView
                         android:layout_width="118dp"
                         android:layout_height="195dp"
                         android:paddingBottom="60dp"
-                        app:srcCompat="@drawable/guy_icone" />
+                        app:srcCompat="@drawable/cap_icone" />
+
                     <Space
                         android:layout_width="20dp"
                         android:layout_height="wrap_content" />
+
                     <TextView
                         android:layout_width="250dp"
                         android:layout_height="230dp"
                         android:paddingBottom="30dp"
-                        android:text="Inteligente, sensível e conflituoso. Embora Montag comece como um bombeiro satisfeito, mas geralmente complacente, ele se torna cada vez mais insatisfeito com sua sociedade à medida que descobre o preço de um mundo sem livros. E conforme seu antigo mundo desmorona, Montag começa a recorrer aos livros, esperando que – em algum lugar entre suas páginas – ele encontre as respostas para suas perguntas ardentes sobre sua sociedade, sua vida e a si mesmo." />
+                        android:text="@string/pers_4"
+                        android:textColor="#E6C9C9" />
+
                 </TableRow>
 
             </TableLayout>
         </LinearLayout>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="302dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="PERSONAGENS"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="72dp"
+        android:layout_height="88dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toStartOf="@+id/textView19"
+        app:srcCompat="@drawable/menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
