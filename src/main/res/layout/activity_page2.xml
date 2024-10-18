@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
     tools:context=".Page2Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
 
     <View
         android:id="@+id/view3"
@@ -74,44 +80,54 @@
         app:layout_constraintStart_toEndOf="@+id/imageView14"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="238dp"
-        android:layout_height="93dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque id elit ut feugiat. Nulla vulputate purus et magna porta condimentum."
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
-        app:layout_constraintStart_toEndOf="@+id/imageView14"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        <ScrollView
+            android:id="@+id/scrollView13"
+            android:layout_width="0dp"
+            android:layout_height="93dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView14"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.562">
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="357dp"
-        android:layout_height="137dp"
-        android:layout_marginTop="12dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque id elit ut feugiat. Nulla vulputate purus et magna porta condimentum. Cras accumsan quis elit eget condimentum. Nulla rhoncus nec nibh sit amet porttitor. Sed tristique nibh ac velit condimentum, quis mattis enim cursus. Maecenas sit amet posuere lectus. Praesent lobortis justo id volutpat accumsan. Donec neque purus, volutpat non tortor eu, iaculis mattis nunc."
-        android:textColor="#FAF9F9"
-        android:textColorLink="#FFFEFE"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ray Bradbury (1920–2012) foi um dos mais influentes e prolíficos escritores de ficção científica e fantasia do século XX. Nascido em Waukegan, Illinois, Bradbury desenvolveu uma paixão pela leitura e escrita desde cedo, inspirado por obras de autores como Edgar Allan Poe e H.G. Wells. Embora tenha se aventurado em diferentes gêneros, ele é mais conhecido por suas obras de ficção científica que exploram questões sociais, culturais e filosóficas."
+                android:textColor="#FFFFFF"/>
+        </ScrollView>
 
-    <!-- Adicionando o ViewPager2 logo abaixo do textView14 -->
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPager2"
-        android:layout_width="163dp"
-        android:layout_height="185dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        <ScrollView
+            android:id="@+id/scrollView14"
+            android:layout_width="409dp"
+            android:layout_height="125dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.592"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView13">
 
-    <ImageView
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sua obra mais famosa, Fahrenheit 451 (1953), é uma distopia que se tornou um marco na literatura mundial, abordando temas como censura, a opressão governamental e a importância dos livros e do conhecimento. A visão de Bradbury de um futuro em que os livros são queimados em nome da conformidade ressoou profundamente em leitores de todas as gerações, solidificando seu lugar na história da literatura. Além de Fahrenheit 451, Bradbury escreveu inúmeros contos, romances, roteiros para cinema e televisão, e peças teatrais. Sua coleção de contos As Crônicas Marcianas (1950) é outro destaque, retratando a colonização de Marte por humanos e as complexidades que surgem desse encontro. Bradbury era conhecido por sua prosa lírica e seu talento para explorar as nuances emocionais de seus personagens, muitas vezes levando o leitor a reflexões profundas sobre a condição humana. Embora frequentemente associado à ficção científica, Bradbury considerava suas histórias como fantasias e não profecias. Ele acreditava no poder da imaginação e na importância de sonhar com futuros alternativos, mesmo que sombrios, para evitar que se tornassem realidade. Ao longo de sua vida, Ray Bradbury recebeu inúmeros prêmios e honrarias por suas contribuições à literatura, incluindo o prestigiado National Medal of Arts. Até o fim de sua carreira, Bradbury permaneceu um defensor apaixonado da leitura, da escrita e da liberdade de expressão, legando ao mundo uma obra que continua a inspirar e desafiar leitores em todo o mundo."
+                android:textColor="#FAF9F9"
+                android:textSize="16sp" />
+        </ScrollView>
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager2"
+            android:layout_width="168dp"
+            android:layout_height="196dp"
+            android:layout_marginTop="396dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <ImageView
         android:id="@+id/imageView15"
         android:layout_width="61dp"
         android:layout_height="64dp"
@@ -149,4 +165,13 @@
         app:layout_constraintTop_toTopOf="@+id/view3"
         app:layout_constraintVertical_bias="1.0" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

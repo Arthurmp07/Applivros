@@ -46,8 +46,10 @@ public class Page1Activity extends AppCompatActivity {
                     startActivity(new Intent(Page1Activity.this, Page3Activity.class));
                 } else if (id == R.id.page4) {
                     startActivity(new Intent(Page1Activity.this, Page4Activity.class));
+                }else if (id == R.id.home) {
+                    startActivity(new Intent(Page1Activity.this, MainActivity.class));
                 }
-                drawerLayout.closeDrawer(GravityCompat.START);
+                    drawerLayout.closeDrawer(GravityCompat.START);
                 return true;
             }
         });

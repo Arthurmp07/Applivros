@@ -95,7 +95,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView6"
             app:layout_constraintVertical_bias="0.329"
-            app:srcCompat="@drawable/autor__1_" />
+            app:srcCompat="@drawable/livro_icone" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -120,7 +120,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view"
             app:layout_constraintVertical_bias="0.134"
-            app:srcCompat="@drawable/autor" />
+            app:srcCompat="@drawable/autor__1_" />
 
         <ImageView
             android:id="@+id/imageView8"

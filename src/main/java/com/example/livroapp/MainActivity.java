@@ -46,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, Page3Activity.class));
                 } else if (id == R.id.page4) {
                     startActivity(new Intent(MainActivity.this, Page4Activity.class));
+                } else if (id == R.id.home) {
+                    startActivity(new Intent(MainActivity.this, MainActivity.class));
+
                 }
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return true;
